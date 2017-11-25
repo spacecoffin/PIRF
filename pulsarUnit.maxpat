@@ -1100,7 +1100,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "Burst mode trigger",
+									"comment" : "",
 									"id" : "obj-25",
 									"index" : 3,
 									"maxclass" : "inlet",
