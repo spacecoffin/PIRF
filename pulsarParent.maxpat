@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 544.0, 80.0, 666.0, 476.0 ],
+		"rect" : [ 89.0, 79.0, 740.0, 578.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"globalpatchername" : "pulsarGenerator2[1]",
+		"globalpatchername" : "pulsarGenerator2",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Menlo Regular",
@@ -102,15 +102,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 697.5, 1693.0, 250.0, 22.0 ],
+					"patching_rect" : [ 15.0, 1809.0, 336.0, 22.0 ],
 					"restore" : [ "duplicate", "3samp" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto pulsarPoly4.1::pulsaretChange",
-					"varname" : "u621014939"
+					"text" : "pattr @bindto pulsarPoly4.1::pulsaretChange @autorestore 0",
+					"varname" : "u795002322"
 				}
 
 			}
@@ -123,15 +123,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 464.999878, 1693.0, 227.0, 22.0 ],
+					"patching_rect" : [ 15.0, 1751.0, 317.0, 22.0 ],
 					"restore" : [ "duplicate", "2trad" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto pulsarPoly4.1::panChange",
-					"varname" : "u390014938"
+					"text" : "pattr @bindto pulsarPoly4.1::panChange @autorestore 0",
+					"varname" : "u065002290"
 				}
 
 			}
@@ -144,15 +144,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 233.999878, 1693.0, 231.0, 22.0 ],
+					"patching_rect" : [ 15.0, 1693.0, 317.0, 22.0 ],
 					"restore" : [ "duplicate", "1trad" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto pulsarPoly4.1::ampChange",
-					"varname" : "u893014945"
+					"text" : "pattr @bindto pulsarPoly4.1::ampChange @autorestore 0",
+					"varname" : "u970002272"
 				}
 
 			}
@@ -165,15 +165,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 803.0, 1665.0, 271.0, 22.0 ],
+					"patching_rect" : [ 396.535889, 1665.0, 357.0, 22.0 ],
 					"restore" : [ "duplicate", "4wind" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto pulsarPoly4.1::pulsaretEnvChange",
-					"varname" : "u146014934"
+					"text" : "pattr @bindto pulsarPoly4.1::pulsaretEnvChange @autorestore 0",
+					"varname" : "u812002341"
 				}
 
 			}
@@ -186,15 +186,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 528.666504, 1665.0, 265.0, 22.0 ],
+					"patching_rect" : [ 15.0, 1780.0, 351.0, 22.0 ],
 					"restore" : [ "duplicate", "2wind" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto pulsarPoly4.1::pulseMaskChange",
-					"varname" : "u194014674"
+					"text" : "pattr @bindto pulsarPoly4.1::pulseMaskChange @autorestore 0",
+					"varname" : "u237002307"
 				}
 
 			}
@@ -207,15 +207,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 273.45752, 1665.0, 256.0, 22.0 ],
+					"patching_rect" : [ 15.0, 1722.0, 342.0, 22.0 ],
 					"restore" : [ "duplicate", "2trad" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto pulsarPoly4.1::formFreqChange",
-					"varname" : "u408014672"
+					"text" : "pattr @bindto pulsarPoly4.1::formFreqChange @autorestore 0",
+					"varname" : "u625002257"
 				}
 
 			}
@@ -228,15 +228,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 15.0, 1665.0, 255.0, 22.0 ],
+					"patching_rect" : [ 15.0, 1665.0, 342.0, 22.0 ],
 					"restore" : [ "duplicate", "3samp" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr @bindto pulsarPoly4.1::fundFreqChange",
-					"varname" : "u340014671"
+					"text" : "pattr @bindto pulsarPoly4.1::fundFreqChange @autorestore 0",
+					"varname" : "u457002230"
 				}
 
 			}
@@ -1028,7 +1028,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"buffername" : "35969pulseMask",
+					"buffername" : "1008pulseMask",
 					"id" : "obj-13",
 					"labels" : 0,
 					"maxclass" : "waveform~",
@@ -1773,7 +1773,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"buffername" : "35969pulsaretEnv",
+					"buffername" : "1008pulsaretEnv",
 					"id" : "obj-98",
 					"labels" : 0,
 					"maxclass" : "waveform~",
@@ -1793,7 +1793,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"buffername" : "35969pulsaret",
+					"buffername" : "1008pulsaret",
 					"id" : "obj-112",
 					"labels" : 0,
 					"maxclass" : "waveform~",
@@ -3257,7 +3257,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"buffername" : "35969amp",
+					"buffername" : "1008amp",
 					"id" : "obj-135",
 					"labels" : 0,
 					"maxclass" : "waveform~",
@@ -3277,7 +3277,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"buffername" : "35969pan",
+					"buffername" : "1008pan",
 					"id" : "obj-136",
 					"labels" : 0,
 					"maxclass" : "waveform~",
@@ -3297,7 +3297,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"buffername" : "35969formFreq",
+					"buffername" : "1008formFreq",
 					"id" : "obj-137",
 					"labels" : 0,
 					"maxclass" : "waveform~",
@@ -3317,7 +3317,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"buffername" : "35969fundFreq",
+					"buffername" : "1008fundFreq",
 					"id" : "obj-139",
 					"labels" : 0,
 					"maxclass" : "waveform~",
@@ -3367,7 +3367,7 @@
 ,
 					"style" : "",
 					"text" : "pattrstorage",
-					"varname" : "u084004828"
+					"varname" : "u865001941"
 				}
 
 			}
@@ -3383,7 +3383,7 @@
 					"patching_rect" : [ 540.0, 45.0, 59.5, 22.0 ],
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u984004623"
+					"varname" : "u563002155"
 				}
 
 			}
@@ -3413,7 +3413,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 803.0, 1080.0, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "35976pulseMask",
+					"text" : "1015pulseMask",
 					"varname" : "pulseMask8"
 				}
 
@@ -3429,7 +3429,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 786.666626, 1050.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "35976pulsaretEnv",
+					"text" : "1015pulsaretEnv",
 					"varname" : "pulsaretEnv8"
 				}
 
@@ -3445,7 +3445,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 770.333374, 1020.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35976pulsaret",
+					"text" : "1015pulsaret",
 					"varname" : "pulsaret8"
 				}
 
@@ -3461,7 +3461,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 754.0, 990.0, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "35976amp",
+					"text" : "1015amp",
 					"varname" : "amp8"
 				}
 
@@ -3477,7 +3477,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 737.666626, 960.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35976pan",
+					"text" : "1015pan",
 					"varname" : "pan8"
 				}
 
@@ -3493,7 +3493,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 721.333313, 930.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35976formFreq",
+					"text" : "1015formFreq",
 					"varname" : "formFreq8"
 				}
 
@@ -3509,7 +3509,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 705.0, 900.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35976fundFreq",
+					"text" : "1015fundFreq",
 					"varname" : "fundFreq8"
 				}
 
@@ -3540,7 +3540,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 578.0, 1080.0, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "35975pulseMask",
+					"text" : "1014pulseMask",
 					"varname" : "pulseMask7"
 				}
 
@@ -3556,7 +3556,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 561.666626, 1050.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "35975pulsaretEnv",
+					"text" : "1014pulsaretEnv",
 					"varname" : "pulsaretEnv7"
 				}
 
@@ -3572,7 +3572,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 545.333374, 1020.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35975pulsaret",
+					"text" : "1014pulsaret",
 					"varname" : "pulsaret7"
 				}
 
@@ -3588,7 +3588,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 529.0, 990.0, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "35975amp",
+					"text" : "1014amp",
 					"varname" : "amp7"
 				}
 
@@ -3604,7 +3604,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 512.666626, 960.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35975pan",
+					"text" : "1014pan",
 					"varname" : "pan7"
 				}
 
@@ -3620,7 +3620,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 496.333313, 930.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35975formFreq",
+					"text" : "1014formFreq",
 					"varname" : "formFreq7"
 				}
 
@@ -3636,7 +3636,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 480.0, 900.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35975fundFreq",
+					"text" : "1014fundFreq",
 					"varname" : "fundFreq7"
 				}
 
@@ -3667,7 +3667,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 353.0, 1080.0, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "35974pulseMask",
+					"text" : "1013pulseMask",
 					"varname" : "pulseMask6"
 				}
 
@@ -3683,7 +3683,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 336.666656, 1050.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "35974pulsaretEnv",
+					"text" : "1013pulsaretEnv",
 					"varname" : "pulsaretEnv6"
 				}
 
@@ -3699,7 +3699,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 320.333344, 1020.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35974pulsaret",
+					"text" : "1013pulsaret",
 					"varname" : "pulsaret6"
 				}
 
@@ -3715,7 +3715,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 304.0, 990.0, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "35974amp",
+					"text" : "1013amp",
 					"varname" : "amp6"
 				}
 
@@ -3731,7 +3731,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 287.666656, 960.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35974pan",
+					"text" : "1013pan",
 					"varname" : "pan6"
 				}
 
@@ -3747,7 +3747,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 271.333313, 930.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35974formFreq",
+					"text" : "1013formFreq",
 					"varname" : "formFreq6"
 				}
 
@@ -3763,7 +3763,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 255.0, 900.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35974fundFreq",
+					"text" : "1013fundFreq",
 					"varname" : "fundFreq6"
 				}
 
@@ -3794,7 +3794,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 128.0, 1080.0, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "35973pulseMask",
+					"text" : "1012pulseMask",
 					"varname" : "pulseMask5"
 				}
 
@@ -3810,7 +3810,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 111.666656, 1050.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "35973pulsaretEnv",
+					"text" : "1012pulsaretEnv",
 					"varname" : "pulsaretEnv5"
 				}
 
@@ -3826,7 +3826,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 95.333344, 1020.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35973pulsaret",
+					"text" : "1012pulsaret",
 					"varname" : "pulsaret5"
 				}
 
@@ -3842,7 +3842,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.0, 990.0, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "35973amp",
+					"text" : "1012amp",
 					"varname" : "amp5"
 				}
 
@@ -3858,7 +3858,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 62.666672, 960.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35973pan",
+					"text" : "1012pan",
 					"varname" : "pan5"
 				}
 
@@ -3874,7 +3874,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 46.333328, 930.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35973formFreq",
+					"text" : "1012formFreq",
 					"varname" : "formFreq5"
 				}
 
@@ -3890,7 +3890,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 900.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35973fundFreq",
+					"text" : "1012fundFreq",
 					"varname" : "fundFreq5"
 				}
 
@@ -3921,7 +3921,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 788.0, 825.0, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "35972pulseMask",
+					"text" : "1011pulseMask",
 					"varname" : "pulseMask4"
 				}
 
@@ -3937,7 +3937,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 771.666626, 795.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "35972pulsaretEnv",
+					"text" : "1011pulsaretEnv",
 					"varname" : "pulsaretEnv4"
 				}
 
@@ -3953,7 +3953,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 755.333374, 765.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35972pulsaret",
+					"text" : "1011pulsaret",
 					"varname" : "pulsaret4"
 				}
 
@@ -3969,7 +3969,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 739.0, 735.0, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "35972amp",
+					"text" : "1011amp",
 					"varname" : "amp4"
 				}
 
@@ -3985,7 +3985,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 722.666626, 705.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35972pan",
+					"text" : "1011pan",
 					"varname" : "pan4"
 				}
 
@@ -4001,7 +4001,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 706.333313, 675.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35972formFreq",
+					"text" : "1011formFreq",
 					"varname" : "formFreq4"
 				}
 
@@ -4017,7 +4017,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 690.0, 645.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35972fundFreq",
+					"text" : "1011fundFreq",
 					"varname" : "fundFreq4"
 				}
 
@@ -4048,7 +4048,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 563.0, 825.0, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "35971pulseMask",
+					"text" : "1010pulseMask",
 					"varname" : "pulseMask3"
 				}
 
@@ -4064,7 +4064,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 546.666626, 795.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "35971pulsaretEnv",
+					"text" : "1010pulsaretEnv",
 					"varname" : "pulsaretEnv3"
 				}
 
@@ -4080,7 +4080,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 530.333374, 765.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35971pulsaret",
+					"text" : "1010pulsaret",
 					"varname" : "pulsaret3"
 				}
 
@@ -4096,7 +4096,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 514.0, 735.0, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "35971amp",
+					"text" : "1010amp",
 					"varname" : "amp3"
 				}
 
@@ -4112,7 +4112,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 497.666656, 705.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35971pan",
+					"text" : "1010pan",
 					"varname" : "pan3"
 				}
 
@@ -4128,7 +4128,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 481.333313, 675.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35971formFreq",
+					"text" : "1010formFreq",
 					"varname" : "formFreq3"
 				}
 
@@ -4144,7 +4144,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 465.0, 645.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35971fundFreq",
+					"text" : "1010fundFreq",
 					"varname" : "fundFreq3"
 				}
 
@@ -4175,7 +4175,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 338.0, 825.0, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "35970pulseMask",
+					"text" : "1009pulseMask",
 					"varname" : "pulseMask2"
 				}
 
@@ -4191,7 +4191,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 321.666656, 795.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "35970pulsaretEnv",
+					"text" : "1009pulsaretEnv",
 					"varname" : "pulsaretEnv2"
 				}
 
@@ -4207,7 +4207,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 305.333344, 765.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35970pulsaret",
+					"text" : "1009pulsaret",
 					"varname" : "pulsaret2"
 				}
 
@@ -4223,7 +4223,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 289.0, 735.0, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "35970amp",
+					"text" : "1009amp",
 					"varname" : "amp2"
 				}
 
@@ -4239,7 +4239,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 272.666656, 705.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35970pan",
+					"text" : "1009pan",
 					"varname" : "pan2"
 				}
 
@@ -4255,7 +4255,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 256.333313, 675.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35970formFreq",
+					"text" : "1009formFreq",
 					"varname" : "formFreq2"
 				}
 
@@ -4271,7 +4271,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 240.0, 645.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35970fundFreq",
+					"text" : "1009fundFreq",
 					"varname" : "fundFreq2"
 				}
 
@@ -4302,7 +4302,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 113.0, 825.0, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "35969pulseMask",
+					"text" : "1008pulseMask",
 					"varname" : "pulseMask1"
 				}
 
@@ -4318,7 +4318,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 96.666664, 795.0, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "35969pulsaretEnv",
+					"text" : "1008pulsaretEnv",
 					"varname" : "pulsaretEnv1"
 				}
 
@@ -4334,7 +4334,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 80.333336, 765.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35969pulsaret",
+					"text" : "1008pulsaret",
 					"varname" : "pulsaret1"
 				}
 
@@ -4350,7 +4350,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 64.0, 735.0, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "35969amp",
+					"text" : "1008amp",
 					"varname" : "amp1"
 				}
 
@@ -4366,7 +4366,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 47.666668, 705.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35969pan",
+					"text" : "1008pan",
 					"varname" : "pan1"
 				}
 
@@ -4382,7 +4382,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 31.333334, 675.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35969formFreq",
+					"text" : "1008formFreq",
 					"varname" : "formFreq1"
 				}
 
@@ -4398,7 +4398,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 645.0, 92.0, 22.0 ],
 					"style" : "",
-					"text" : "35969fundFreq",
+					"text" : "1008fundFreq",
 					"varname" : "fundFreq1"
 				}
 
@@ -4503,7 +4503,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto pulsarPoly4.1::formMax @invisible 1",
-					"varname" : "u273004826"
+					"varname" : "u494001945"
 				}
 
 			}
@@ -4562,7 +4562,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto pulsarPoly4.1::fundMax @invisible 1",
-					"varname" : "u073005264"
+					"varname" : "u683001948"
 				}
 
 			}
@@ -4600,7 +4600,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto pulsarPoly4.1::ratioOn @invisible 1",
-					"varname" : "u841004702"
+					"varname" : "u413001950"
 				}
 
 			}
@@ -4746,7 +4746,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto pulsarPoly4.1::formMin @invisible 1",
-					"varname" : "u831005448"
+					"varname" : "u424001955"
 				}
 
 			}
@@ -4784,7 +4784,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto pulsarPoly4.1::fundMin @invisible 1",
-					"varname" : "u734005457"
+					"varname" : "u235001957"
 				}
 
 			}
@@ -4822,7 +4822,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto pulsarPoly4.1::ratioOff @invisible 1",
-					"varname" : "u266004607"
+					"varname" : "u380001959"
 				}
 
 			}
@@ -4896,7 +4896,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto pulsarPoly4.1::trainDur @invisible 1",
-					"varname" : "u993004608"
+					"varname" : "u335001962"
 				}
 
 			}
@@ -4970,7 +4970,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto pulsarPoly4.1::maskMenu @invisible 1",
-					"varname" : "u996004601"
+					"varname" : "u605001965"
 				}
 
 			}
